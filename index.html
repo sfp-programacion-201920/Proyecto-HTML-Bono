@@ -12,6 +12,7 @@
     <meta name="keywords" content="Comida verdura pasta">
     <script src="micodigo.js"></script>
     <link rel="stylesheet" href="miestilo.css">
+    <link rel="icon" type="image/png" href="./icons/icono.jfif">
     <!-- Pendiente de hacer el enlace con el icono de mi página -->
     <title>Tipos de comida</title>
 </head>
@@ -29,14 +30,15 @@
         calificación coloquial y comercial que solo se aplica a animales terrestres, normalmente vertebrados
     </p>
     <figure>
-        <img src="carne.jpg" srcset="./images/carne.jpg,
-       ./images/carnemovil.jpg 480w,
-       ./images/carnemovil.jpg 800w" sizes="(max-width: 320px) 280px,
-      (max-width: 480px) 440px,
-      800px" alt="car" style="float: right; margin: 0 1000" />
-        <figcaption> Esto es un bistec </figcaption>
-    </figure>
-
+        <picture>
+            
+                <source media="(max-width: 799px)" srcset="./images/carnemovil.jpg">
+                <source media="(min-width: 800px)" srcset="./images/carne.jpg">
+                <img src="./images/carne.jpg"  style="float: right; margin: 0 1000"  alt="esto es un bistec"> 
+             </picture>
+             <figcaption style="text-align:end">
+                    Esto es un bistec</figcaption>
+             </figure>
     <p>La importancia de la carne roja en la nutrición. La carne roja es rica en proteínas de buena calidad y, sobre
         todo, es una excelente fuente de hierro que contribuye a prevenir o controlar estados de anemia, aseguran los
         especialistas en nutrición. También aporta potasio, fósforo, zinc y vitaminas del complejo B</p>
@@ -67,12 +69,14 @@
             su significado a otras partes comestibles de las plantas, como hojas, inflorescencias y tallos.
         </p>
         <figure>
-            <img src="verdura.jpg" srcset="./images/verdura.jpg,
-            ./images/verduramovil.jpg 480w,
-            ./images/verduramovil.jpg 800w" sizes="(max-width: 320px) 280px,
-           (max-width: 480px) 440px" alt="esto es un ejemplo de verdura" width="300" height="300"
-                style="float: right; margin: 0 1000" />
-            <figcaption>Esto es un vegetal</figcaption>
+                <picture>
+            
+                        <source media="(max-width: 799px)" srcset="./images/verduramovil.jpg">
+                        <source media="(min-width: 800px)" srcset="./images/verdura.jpg">
+                        <img src="./images/verdura.jpg"  style="float: right; margin: 0 1000"  alt="esto es un vegetal"> 
+                     </picture>
+            <figcaption style="text-align:end">
+                Esto es un vegetal</figcaption>
         </figure>
 
 
@@ -115,11 +119,14 @@
             generalmente se cuece en agua hirviendo.
         </p>
         <figure>
-            <img src="pasta.jpg" srcset="./images/pasta.jpg,
-                ./images/pasta movil.jpg 480w,
-                ./images/pasta movil.jpg 800w" sizes="(max-width: 320px) 280px,
-               (max-width: 480px) 440px" alt="esto es un ejemplo de pasta" style="float: right; margin: 0 1000" />
-            <figcaption> esto son spagetis</figcaption>
+                <picture>
+            
+                        <source media="(max-width: 799px)" srcset="./images/pastamovil.jpg">
+                        <source media="(min-width: 800px)" srcset="./images/pasta.jpg">
+                        <img src="./images/pasta.jpg"  style="float: right; margin: 0 1000"  alt="esto son espagueti"> 
+                     </picture>
+            <figcaption style="text-align:end">
+                Esto son espagueti</figcaption>
         </figure>
 
         <p>¿Qué nos aporta la pasta? No podemos olvidar que en una porción generosa de pasta de 100 gramos también
@@ -132,23 +139,6 @@
             los fideos de trigo duro contienen las vitaminas del grupo B, además de vitamina E. Las vitaminas B son
             esenciales para el metabolismo de hidratos de carbono y grasas,
             mientras que la vitamina E mantiene joven el corazón, arterias y venas.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
