@@ -20,4 +20,60 @@ body
                 }
             
 
+header
+{
+background-color: #26c917;
+
+}
+
+
+nav
+{
+background-color: aqua;
+
+}
+
+main
+{
+background-color: brown;
+text-decoration: chartreuse;
+}
+
+section
+{
+
+background-color: cyan;
+
+
+}
+
+article
+{
+background-color: darkorange;
+margin: 15px;
+padding: 5px;
+border-style: solid;
+border-top-width: thin;
+border-bottom-width: thin;
+border-left-width: thin;
+border-right-width: thin;
+}
+
+
+
+aside
+{
+text-align: center;
+background-color: darkgreen;
+}
+
+footer
+{
+    background-color: darkorange;
+    padding: 1%;
+    text-align: center;
+}
+
+
+
 
