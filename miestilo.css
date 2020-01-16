@@ -1,8 +1,4 @@
-body
-{
-    background-color: rgb(221, 236, 12);
-    color: rgb(0, 0, 0)
-}
+
 
 /* comentarios */
 
@@ -30,13 +26,13 @@ background-color: #26c917;
 nav
 {
 background-color: aqua;
+text-align: center;
 
 }
 
 main
 {
 background-color: brown;
-text-decoration: chartreuse;
 }
 
 section
