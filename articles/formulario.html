@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Manuel Bono">
+    <meta name="robots" content="index,follow">
+    <meta name="description"
+        content="Este es mi proyecto y trata sobre una breve introducción a las comidas principales">
+    <meta name="keywords" content="Comida verdura pasta">
+    <script src="../micodigo.js"></script>
+    <link rel="stylesheet" href="../miestilo.css">
+    <link rel="icon" type="image/png" href="./icons/icono.jfif">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+        <h1>Complete nuestro formulario por favor</h1>
+        <nav>
+
+
+        </nav>
+    </header>
+
+
+    <main>
+        <section>
+            <article>
+
+
+                <form action="mailto:manuelbonotorres@gmail.com" method="POST" enctype="text/plain">
+
+                    <fieldset>
+                        <legend>Datos Básica</legend>
+
+                        <p>Nombre: <input type="text" name="nombre" size="30"></p>
+                        <p>Apellidos: <input type="text" name="nombre" size="30"></p>
+                        Opiniones<br>
+                        <textarea name="mensaje" rows="8" cols="50">.....</textarea><br />
+                        Foto de perfil<br> <input type="file" name="adjunto" id="adjunto" accept=".doc, .git" />
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Tipo de comida favorita </legend>
+                        <p>
+
+                            <label for="comida">Española</label>
+                            <input type="radio" name="p1" id="h" size=""><br>
+                            <label for="comida">Mexicana</label>
+                            <input type="radio" name="p1" id="h"><br>
+                            <label for="comida">Asiática</label>
+                            <input type="radio" name="p1" id="h"><br>
+                            <label for="comida">Otra</label>
+                            <input type="text" name="p1" id="h"> <br>
+                        </p>
+                        <p>
+                            <legend>Chef español favorito: </legend>
+                            <label for="chef">Dabiz Muñoz</label>
+                            <input type="radio" name="p2" id="hn"><br>
+                            <label for="chef">Alberto Chicote</label>
+                            <input type="radio" name="p2" id="hn"><br>
+                            <label for="chef">Karlos Alguiñano</label>
+                            <input type="radio" name="p2" id="hn"><br>
+                            <label for="chef">Otro</label>
+                            <input type="text" name="p2" id="hn"> <br>
+                        </p>
+                        <legend>Valora mi página</legend>
+                        <p>
+
+                            <label for="comida">1</label>
+                            <input type="radio" name="p3" id="hp"><br>
+                            <label for="comida">2</label>
+                            <input type="radio" name="p3" id="hp"><br>
+                            <label for="comida">3</label>
+                            <input type="radio" name="p3" id="hp"><br>
+                            <label for="comida">4</label>
+                            <input type="radio" name="p3" id="hp"> <br>
+                        </p>
+                        <p>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Borrar">
+                            <p>Gracias <input type="text" name="nombre" size="30" readonly></p>
+                        </p>
+                    </fieldset>
+                </form>
+
+
+            </article>
+        </section>
+
+
+    </main>
+    <aside>
+
+
+    </aside>
+    <footer>
+        <footer>
+            <figure>
+                <a href="../index.html#formulario">
+                    <picture>
+    
+                        <source media="(max-width: 799px)" srcset="../images/volvermovil1.jpg">
+                        <source media="(min-width: 800px)" srcset="../images/volvermovil.jpg">
+                        <img src="../images/volvermovil.jpg" alt="Clicke aquí">
+    
+    
+                    </picture>
+                </a>
+    
+            </figure>
+    
+
+    </footer>
+
+
+
+</body>
+
+</html>
