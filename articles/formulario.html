@@ -30,9 +30,16 @@
 
                 <label>Nombre: <input type="text" name="nombre" size="30"></label>
                 <label>Apellidos: <input type="text" name="Apellidos" size="30"></label>
-                Opiniones<br>
-                <textarea name="mensaje" rows="8" cols="50">.....</textarea><br />
-                Foto de perfil<br> <input type="file" name="adjunto" id="adjunto" accept=".doc, .git" />
+                <br>Opiniones<textarea name="opiniones" rows="8" cols="50">.....</textarea><br />
+                Foto de perfil<br> <input type="file" name="adjunto" id="adjunto" accept=".doc, .git" /><br>
+                Nombre en la página<br> <input type="text" name="Apodo" size="10" autocomplete="nickname"><br>
+                Contraseña: <input type="password" name="Contraseña" minlength="6" maxlength="18"
+                    autocomplete="password" required><br><br>
+                Introduce tu edad: <input type="number" name="Edad" step="1" required placeholder="18" min="18"><br><br>
+                Número de teléfono: <input type="tel" name="Telefono" value="+34"><br><br>
+                Introduce tu correo electronico: <input type="email" name="Correo" size="20" autocomplete="email"
+                    required placeholder="@gmail.com, @outlook.es"><br><br>
+                Introduce tu fecha de nacimiento: <input type="date" name="Fecha" required><br><br>
             </fieldset>
 
             <fieldset>
@@ -79,6 +86,7 @@
             </fieldset>
 
         </form>
+        </a>
     </main>
 
     <footer>
@@ -91,7 +99,7 @@
                     <img src="../images/volvermovil.jpg" alt="Clicke aquí">
 
                 </picture>
-            </a>
+
 
         </figure>
 
