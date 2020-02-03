@@ -1,10 +1,13 @@
 
 
 /* comentarios */
-body
-{
-    background-color: rgb(30, 255, 0);
-    
+body{
+
+ font-family:'Roboto', sans-serif;
+ background-image: url(images/morty.jpg);
+ background-attachment: fixed;
+ background-color: #26c917;
+
 }
 
 span
@@ -91,17 +94,23 @@ background-color: yellow;
 }
 
 .esp{
-    background-color: black ;
+    background-color: rgb(241, 225, 0) ;
     margin: 100px;
 }
 .mex{
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
     margin: 100px;
 }
 .asi{
-    background-color: brown;
+    background-color: rgb(255, 0, 0);
     margin: 100px;
 }
 .but{
 margin:100px;
+}
+.img2{
+    opacity: 0.8;
+}
+.img2:hover{
+    opacity: 1.0;
 }

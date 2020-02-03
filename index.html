@@ -13,7 +13,9 @@
     <script src="micodigo.js"></script>
     <link rel="stylesheet" href="miestilo.css" type="text/css">
     <link rel="icon" type="image/png" href="./icons/icono.jfif">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Comidas y sus noticias</title>
+
 </head>
 
 
@@ -41,18 +43,16 @@
 
 
 
-        <h1> <a href="./articles/formulario.html">Nuestro formulario </a></h1>
-        <a id="formulario"></a>
 
 
 
         <h3>Acceder a cada sección de noticias</h3>
 
-        <a class="but" href="#españa"> noticia españa </a>
-        <a class="but" href="#mexico"> noticia méxico </a>
-        <a class="but" href="#asia"> noticia asia 1</a>
-        <a href="./articles/formulario.html">Nuestro formulario </a>
-        
+        <a class="but" href="#españa"> <img src="./images/menu/button_espana.png"> </a>
+        <a class="but" href="#mexico"> <img src="./images/menu/button_mexico.png"> </a>
+        <a class="but" href="#asia"> <img src="./images/menu/button_asia.png"> </a>
+        <a class="but" href="./articles/formulario.html"> <img src="./images/menu/button_formulario.png"> </a>
+
         <a id="formulario"></a>
 
 
@@ -70,18 +70,21 @@
                 <h1><u>Noticias:</u></h1>
                 <h2><i> <a href="articles/chef.html"> Los mejores chefs del mundo </a> </i></h2>
                 <a id="chef"></a>
+
                 <figure>
                     <a href="./articles/chef.html">
                         <picture>
 
                             <source media="(max-width: 799px)" srcset="./images/chefbuenomovil.jpg">
                             <source media="(min-width: 800px)" srcset="./images/chefbueno.jpg">
-                            <img src="./images/chefbueno.jpg" style="float: inherit; margin: 0px 0PX 0PX 250PX"
-                                alt="Clicke aquí">
+                            <a class="img2"> <img src="./images/chefbueno.jpg"
+                                    style="float: inherit; margin: 0px 0PX 0PX 250PX"> </a>
+                            alt="Clicke aquí">
                         </picture>
                     </a>
                     <figcaption> En esta noticia nos muestra una tabla de los mejore schefs del mundo <a
                             href="./articles/chef.html"> aqui </a> para acceder a la noticia </figcaption>
+
             </article>
         </section>
         <div class="esp">
@@ -105,7 +108,7 @@
 
                                 <source media="(mfax-width: 799px)" srcset="./images2/nochebuenamovil.jfif">
                                 <source media="(min-width: 800px)" srcset="./images2/nochebuena.jpg">
-                                <img src="./images2/nochebuena.jpg" alt="Clicke aquí">
+                                <a class="img2"><img src="./images2/nochebuena.jpg" alt="Clicke aquí"> </a>
                             </picture>
                         </a>
                         <figcaption> Aquí se puede apreciar un banquete de nochebuena <a href="./articles/españa.html">
@@ -127,7 +130,7 @@
 
                                 <source media="(max-width: 799px)" srcset="./images2/salmorejomovil.jfif">
                                 <source media="(min-width: 800px)" srcset="./images2/salmorejo.jpg">
-                                <img src="./images2/salmorejo.jpg" alt="Clicke aquí">
+                                <a class="img2"> <img src="./images2/salmorejo.jpg" alt="Clicke aquí"></a>
                             </picture>
                         </a>
                         <figcaption> pulse donde pone clickar para poder acceder a la noticia de la verdura que se
@@ -162,7 +165,7 @@
                             <picture>
                                 <source media="(max-width: 799px)" srcset="./images2/mexicanamovil.jpg">
                                 <source media="(min-width: 800px)" srcset="./images2/mexicana.jpg">
-                                <img src="./images2/mexicana.jpg" alt="Clicke aquí">
+                                <a class="img2"> <img src="./images2/mexicana.jpg" alt="Clicke aquí"></a>
                             </picture>
                         </a>
                         <figcaption> Aquí podemos apreciar una imagen de la chef <a href="./articles/mexico.html">
@@ -183,7 +186,7 @@
                             <picture>
                                 <source media="(max-width: 799px)" srcset="./images2/navidadmexicomovil.jfif">
                                 <source media="(min-width: 800px)" srcset="./images2/navidadmexico.jpg">
-                                <img src="./images2/navidadmexico.jpg" alt="Clicke aquí">
+                                <a class="img2"> <img src="./images2/navidadmexico.jpg" alt="Clicke aquí"></a>
                             </picture>
                         </a>
                         <figcaption> En esta imagen se puede apreciar como es la comida <a
@@ -214,7 +217,7 @@
                             <picture>
                                 <source media="(max-width: 799px)" srcset="./images2/asiamovil.jfif">
                                 <source media="(min-width: 800px)" srcset="./images2/asia.jpg">
-                                <img src="./images2/asia.jpg" alt="Clicke aquí">
+                                <a class="img2"><img src="./images2/asia.jpg" alt="Clicke aquí"></a>
                             </picture>
                         </a>
                         <figcaption> En esta imagen se puede apreciar como es el pakta <a href="./articles/asia.html">
@@ -235,7 +238,7 @@
                             <picture>
                                 <source media="(max-width: 799px)" srcset="./images2/asiapescadomovil.jfif">
                                 <source media="(min-width: 800px)" srcset="./images2/asiapescado.jpg">
-                                <img src="./images2/asiapescado.jpg" alt="Clicke aquí">
+                                <a class="img2"> <img src="./images2/asiapescado.jpg" alt="Clicke aquí"></a>
                             </picture>
                         </a>
                         <figcaption> En esta imagen se puede apreciar como es la comida <a href="./articles/asia2.html">
@@ -269,6 +272,8 @@
 
         <p> <a href="#inicio"> Ir al principio de la página </a> </p>
         <a id="final"></a>
+
+        <p>Hecho por Manuel Bono, Programación B, Curso 2019-2020</p>
     </footer>
 </body>
 
