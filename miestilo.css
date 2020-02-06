@@ -18,7 +18,7 @@ color: rgb(255, 255, 255);
 
 p
 {
-    
+  background-color: #26c917;  
 }
 
 
@@ -38,6 +38,7 @@ header
 {
 background-color: #5488e7;
 text-align: center;
+margin: 300px;
 }
 
 
@@ -53,8 +54,7 @@ main
 margin: 140px;
 
 }
-section
-{
+section{
 
 
 margin-left: 100px;
@@ -63,8 +63,7 @@ text-align: center;
 padding: 10px;
 
 }
-article
-{
+article{
 
 margin: 15px;
 padding: 10px;
@@ -127,7 +126,7 @@ margin:100px;
     background-color: red;
 }
 .asi2{
-    
+    background-color: yellow
 }
 .formu{
     background-color: royalblue;
