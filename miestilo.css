@@ -1,9 +1,8 @@
 
 
-/* comentarios */
-body{
 
- font-family:'Roboto', sans-serif;
+body {
+font-family:'Roboto', sans-serif;
  background-image: url(images/morty.jpg);
  background-attachment: fixed;
  background-color: #26c917;
@@ -38,7 +37,8 @@ header
 {
 background-color: #5488e7;
 text-align: center;
-margin: 300px;
+
+align-items: center;
 }
 
 
